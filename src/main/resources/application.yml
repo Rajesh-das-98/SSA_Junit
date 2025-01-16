@@ -3,3 +3,5 @@ spring:
     name: SSA
 server:
   port: 8100
+  servlet:
+    context-path: /ssa

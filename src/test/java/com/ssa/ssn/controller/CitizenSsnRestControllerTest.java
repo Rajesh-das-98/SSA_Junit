@@ -64,7 +64,7 @@ public class CitizenSsnRestControllerTest {
 
 		String writeValueAsString = new ObjectMapper().writeValueAsString(citizenSsnInputBean);
 		
-				mockMvc.perform(post("/ssn/findStateBySsnNumber")
+				mockMvc.perform(post("/ssa/ssn/findStateBySsnNumber")
 						.contentType(MediaType.APPLICATION_JSON)
 						.content(writeValueAsString))
 				.andExpect(status().isOk())
