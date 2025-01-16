@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: SSA
+server:
+  port: 8100
