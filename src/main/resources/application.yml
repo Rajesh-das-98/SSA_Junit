@@ -1,7 +1,15 @@
 spring:
   application:
     name: SSA
+  security:
+    user:
+      name: rajesh
+      password: Rajesh@das1
 server:
   port: 8100
   servlet:
     context-path: /ssa
+logging:
+  level:
+    org.springframework.security: DEBUG
+    root: INFO
